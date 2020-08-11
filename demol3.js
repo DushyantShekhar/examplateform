@@ -16,7 +16,7 @@ function f1()
 	var rd13 = document.getElementById("rd13");
 	var rd14 = document.getElementById("rd14");
 	var rd15= document.getElementById("rd15");
-	if(rd1.checked==true)
+	if(rd3.checked==true)
 	count++;
 	if(rd6.checked==true)
 	count++;
