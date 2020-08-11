@@ -1,0 +1,37 @@
+<html>
+<head>
+<title> question... </title>
+<script type = text/javascript>
+function validation()
+{
+ var uname = document.getElementById("uname");
+ var pass = document.getElementById("pass");
+ if(uname.value=="dushyant"&& pass.value =="singh")
+ {
+ return true;
+ }
+ else if(uname.value!="dushyant")
+ {
+ uname.style.border="solid 3px red";
+ return false;
+ }
+ else if(pass.value!="singh")
+ {
+ pass.style.border="solid 3px red";
+ return false;
+ }
+}
+</script>
+</head>
+<body>
+<form onsubmit="return validation();" action ="jsl3.html">
+  <input id ="uname" placeholder ="username" type="text">
+   <br>
+    </br>
+    <input id ="pass" placeholder="password" type="password">
+    <br>
+    </br>
+    <button type ="submit">Submit</button>
+</form>
+</body>
+</html>
